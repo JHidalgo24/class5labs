@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Class 5 Labs</title>
+    <script crossorigin="anonymous"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="code.js"></script>
+</head>
+<body>
+<h3>Name</h3>
+<label for="name">Name</label><input type="text" id="name">
+<br>
+<h3>Rank</h3>
+<label for="Captain">Captain</label><input type="radio" name="rank" id="Captain" data-rank="Captain" data-textcolor="red">
+<br>
+<label for="General">General</label><input type="radio" name="rank" id="General" data-rank="General" data-textcolor="blue">
+<br>
+<label for="Private">Private</label><input type="radio" name="rank" id="Private" data-rank="Private" data-textcolor="green">
+<br>
+<button>Output Greeting!</button>
+<h1 id="output"></h1>
+</body>
+
+
+<table>
+    <tr>
+        <th>Qty</th>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Total</th>
+    </tr>
+    <tr>
+        <td><input type="number" id="learning" min="0" style="width: 45px"></td>
+        <td>Learning jQuery</td>
+        <td>$39.99</td>
+        <td><p id="total-learning"></p></td>
+    </tr>
+    <tr>
+        <td><input type="number" id="donation" min="0" style="width: 45px" ></td>
+        <td>jQuery Donation</td>
+        <td>$14.99</td>
+        <td><p id="total-Donation"></p></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>Grand Total</td>
+        <td><p id="grandTotal"></p></td>
+    </tr>
+</table>
+
+
+
+
+</html>
